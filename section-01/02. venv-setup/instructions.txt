@@ -1,0 +1,4 @@
+python3 venv .venv
+source .venv/lib/activate
+add requiement.txt
+pip install requiement.txt
