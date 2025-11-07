@@ -1,3 +1,5 @@
+# tuples are immutable sequences, typically used to store collections of heterogeneous data, not changeable after creation
+
 masala_spices = ("Cumin", "Coriander", "Cardamom")
 
 (spice1, spice2, spice3) = masala_spices # Unpacking the tuple into individual variables

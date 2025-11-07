@@ -33,3 +33,23 @@ print(f"Chai ingredients sorted alphabetically: {chai_ingredients}")
 sugar_levels = [5, 10, 3, 8, 2]
 print(f"Maximum sugar level: {max(sugar_levels)}")
 print(f"Minimum sugar level: {min(sugar_levels)}")
+
+
+# Operator overloading and bytearray in python
+base_liquids = ["water", "milk"]
+extra_falvor = ["vanilla"]
+
+full_liquids = base_liquids + extra_falvor
+print(f"Full liquids list: {full_liquids}")
+
+strong_brew = extra_falvor * 3
+print(f"Strong brew flavoring: {strong_brew}")
+
+# Working with bytearray
+
+raw_spice_data = bytearray(b'CINNAMON')
+print(f"Raw spice data: {raw_spice_data}")
+
+raw_spice_data = raw_spice_data.replace(b'CINNAMON', b'CARDAMOM')
+
+print(f"Updated spice data: {raw_spice_data}")
