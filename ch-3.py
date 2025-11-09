@@ -9,10 +9,10 @@
 cup_size = input("Enter cup size (small, medium, large): ").lower()
 
 if cup_size == "small":
-    print("Price: 10")
+    print("Price: 10 rupees")
 elif cup_size == "medium":
-    print("Price: 15")
+    print("Price: 15 rupees")
 elif cup_size == "large":
-    print("Price: 20")
+    print("Price: 20 rupees")
 else:
     print("Unknown cup size")
