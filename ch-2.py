@@ -7,7 +7,7 @@
 # * If it's "cookies" or "samosa" , confirm the order
 # « Else, show unavailability
 
-user_input = input("Welcome to the cafe! What snack would you like to order? ")
+user_input = input("Welcome to the cafe! What snack would you like to order? ").lower()
 
 if user_input == "cookies" or user_input == "samosa":
     print(f"Great choice! Your order for {user_input} has been placed.")
