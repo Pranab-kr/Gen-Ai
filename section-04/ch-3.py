@@ -6,7 +6,7 @@
 
 # « Print: "Order ready for [name]"
 
-names = ["ram", "shyam", "geeta", "sita", "laxman"]
+names = ["ram", "pranab", "geeta", "sita", "laxman"]
 
 for name in names:
     print(f"Order ready for {name}")
