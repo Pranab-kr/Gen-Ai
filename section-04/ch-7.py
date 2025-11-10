@@ -17,3 +17,14 @@ for flavor in flavors:
         print("This flavor has been discontinued. Stopping orders.")
         break
     print(f"Preparing your {flavor} chai.")
+
+# Extra
+
+staffs = [("Amit", 16), ("Rina", 20), ("Sonal", 15), ("Vikram", 22)]
+
+for name , age in staffs:
+    if age >=18:
+        print(f"{name} is eligible to work.")
+        break
+else:
+    print(f"{name} is not eligible to work.") # This else corresponds to the for loop , only executes if the loop is not broken out of.
