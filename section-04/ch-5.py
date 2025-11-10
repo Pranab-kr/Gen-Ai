@@ -4,7 +4,7 @@
 
 # « Use two lists: one for names and one for bills.
 
-# « Print: "[Name] paid I[amount]"
+# « Print: "[Name] paid Rs.[amount]"
 
 names =  ["Alice", "ram", "pkm", "sita"]
 bills = [50, 30, 70, 40]
