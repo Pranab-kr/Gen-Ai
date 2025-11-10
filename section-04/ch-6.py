@@ -8,7 +8,9 @@
 # « Print each temperature step.
 
 temp = 40
+
 while temp < 100:
     print(f"Current temperature: {temp}°C")
     temp += 15
+
 print("Tea has boiled at 100°C!")
