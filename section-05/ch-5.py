@@ -1,3 +1,5 @@
+# VAT Calculation Function
+
 # Your shop adds a 10% VAT on every order.
 # You want this to be consistent and traceable.
 # Task:
