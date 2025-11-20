@@ -16,3 +16,6 @@ def calculate_bill(cups, price_per_cup):
 
 calculate_bill_1 = calculate_bill(3, 5)
 print(f"Total bill for order 1 is: {calculate_bill_1}")
+
+calculate_bill_2 = calculate_bill(3, 8)
+print(f"Total bill for order 2 is: {calculate_bill_1}")
